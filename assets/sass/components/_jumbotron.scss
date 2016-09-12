@@ -1,4 +1,6 @@
 .jumbotron-hotroutes {
+    @include gradient-radial($hr-red, darken($hr-red, 10%));
     background-color: $hr-red;
+    border-bottom: 1px solid darken($hr-red, 10%);
     color: white;
 }

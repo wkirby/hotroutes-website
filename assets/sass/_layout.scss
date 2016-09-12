@@ -1,0 +1,28 @@
+.logo {
+    margin: 10% auto;
+
+    @include media-breakpoint-up(sm) {
+        max-width: 400px;
+    }
+
+    @include media-breakpoint-up(md) {
+        max-width: 600px;
+    }
+}
+
+.section {
+    padding: $spacer-y * 3;
+    margin-bottom: $spacer-y * 3;
+
+    &:nth-child(odd) {
+        background-color: $gray-lightest;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.container-narrow {
+    max-width: 800px;
+}

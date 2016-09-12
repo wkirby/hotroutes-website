@@ -1,3 +1,10 @@
-@import "variables";
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i';
 
-@import "components/jumbotron";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "type",
+        "layout";
+
+@import "components/jumbotron",
+        "components/zoom";
