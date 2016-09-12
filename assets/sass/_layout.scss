@@ -11,11 +11,12 @@
 }
 
 .section {
-    padding: $spacer-y * 3;
-    margin-bottom: $spacer-y * 3;
+    padding: ($spacer-y * 3) 0;
 
     &:nth-child(odd) {
         background-color: $gray-lightest;
+        border-top: 1px solid $gray-lighter;
+        border-bottom: 1px solid $gray-lighter;
     }
 
     &:last-child {
@@ -25,4 +26,10 @@
 
 .container-narrow {
     max-width: 800px;
+}
+
+#footer {
+    background-color: $gray-lightest;
+    border-top: 1px solid $gray-lighter;
+    color: $gray-light;
 }

@@ -1,0 +1,12 @@
+.screenshot {
+    margin-bottom: $spacer-y;
+    @include media-breakpoint-up(sm) {
+        float: left;
+        padding: $spacer-y;
+        width: 50%;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: 33%;
+    }
+}

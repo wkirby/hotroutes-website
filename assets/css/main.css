@@ -4691,15 +4691,21 @@ h1, h2, h3, h4 {
       max-width: 600px; } }
 
 .section {
-  padding: 3rem;
-  margin-bottom: 3rem; }
+  padding: 3rem 0; }
   .section:nth-child(odd) {
-    background-color: #f7f7f9; }
+    background-color: #f7f7f9;
+    border-top: 1px solid #eceeef;
+    border-bottom: 1px solid #eceeef; }
   .section:last-child {
     margin-bottom: 0; }
 
 .container-narrow {
   max-width: 800px; }
+
+#footer {
+  background-color: #f7f7f9;
+  border-top: 1px solid #eceeef;
+  color: #818a91; }
 
 .jumbotron-hotroutes {
   background-image: radial-gradient(circle, #C9181E, #9b1317);
@@ -4707,6 +4713,17 @@ h1, h2, h3, h4 {
   background-color: #C9181E;
   border-bottom: 1px solid #9b1317;
   color: white; }
+
+.screenshot {
+  margin-bottom: 1rem; }
+  @media (min-width: 544px) {
+    .screenshot {
+      float: left;
+      padding: 1rem;
+      width: 50%; } }
+  @media (min-width: 768px) {
+    .screenshot {
+      width: 33%; } }
 
 img[data-action="zoom"] {
   cursor: pointer;
