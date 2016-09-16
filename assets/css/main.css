@@ -4681,6 +4681,12 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   font-weight: 900; }
 
+code {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #f9f2f4;
+  font-size: 80%; }
+
 .logo {
   margin: 10% auto; }
   @media (min-width: 544px) {
