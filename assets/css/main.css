@@ -4687,6 +4687,17 @@ code {
   background-color: #f9f2f4;
   font-size: 80%; }
 
+.social-icons {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+  .social-icons a {
+    color: white;
+    text-decoration: none; }
+  .social-icons span {
+    margin-right: 10px; }
+
 .logo {
   margin: 10% auto; }
   @media (min-width: 544px) {
