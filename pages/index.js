@@ -7,6 +7,30 @@ import { Subtitle, Title } from "../lib/components/Title";
 import { Section } from "../lib/components/Section";
 import { Icon } from "../lib/components/Icon";
 
+const screenshots = [
+  "/static/img/screenshots/stadium_1.png",
+  "/static/img/screenshots/menu_1.png",
+  "/static/img/screenshots/menu_2.png",
+  "/static/img/screenshots/gameplay_1.png",
+  "/static/img/screenshots/gameplay_2.png",
+  "/static/img/screenshots/gameplay_3.png"
+];
+
+const ImageGrid = ({ images, ...props }) => {
+  return (
+    <div className="images" {...props}>
+      {images.map((image, i) => {
+        const imgSrc = typeof image === "string" ? image : image.src;
+        return (
+          <div className="screenshot" key={i}>
+            <img src={imgSrc} className="img-fluid rounded" />
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 export default () => {
   return (
     <Layout pageTitle="Welcome">
@@ -69,6 +93,13 @@ export default () => {
             allowFullScreen
           />
         </div>
+      </Section>
+
+      <Section id="screenshots">
+        <Container className="container-narrow text-center">
+          <Subtitle className="mb-3">Screenshots</Subtitle>
+          <ImageGrid images={screenshots} />
+        </Container>
       </Section>
     </Layout>
   );
