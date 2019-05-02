@@ -4,13 +4,16 @@
     "build": "next build",
     "preexport": "next build",
     "export": "next export",
-    "start": "next start -p 4074"
+    "start": "next start -p 4074",
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
     "formik": "^1.5.4",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.4.1",
     "js-yaml-loader": "^1.0.1",
     "lodash": "^4.17.11",
