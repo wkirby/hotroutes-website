@@ -27,9 +27,13 @@ body {
 
 .section {
   > .section-body {
-    padding: $spacer-5;
+    padding: $spacer-3;
     width: 100%;
     height: 100%;
+
+    @include media-breakpoint-up(md) {
+      padding: $spacer-5;
+    }
   }
 
   &.has-background {
