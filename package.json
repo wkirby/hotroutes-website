@@ -1,4 +1,5 @@
 {
+  "version": "0.2.0",
   "scripts": {
     "dev": "next -p 4074",
     "build": "next build",
