@@ -1,8 +1,8 @@
 .screenshot {
-    margin-bottom: $spacer-y;
+    margin-bottom: $spacer-3;
     @include media-breakpoint-up(sm) {
         float: left;
-        padding: $spacer-y;
+        padding: $spacer-3;
         width: 50%;
     }
 
