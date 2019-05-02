@@ -46,8 +46,6 @@ body {
     min-height: 40vh;
   }
 
-  padding: ($spacer-3 * 3) 0;
-
   &:nth-child(odd) {
     background-color: $gray-100;
     border-top: 1px solid $gray-300;
@@ -59,8 +57,12 @@ body {
   }
 }
 
-.container-narrow {
-  max-width: 800px;
+.container {
+  &.container-narrow {
+    @include media-breakpoint-up(md) {
+      max-width: $narrow;
+    }
+  }
 }
 
 #footer {
