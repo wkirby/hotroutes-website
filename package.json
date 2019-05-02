@@ -4,9 +4,10 @@
     "build": "next build",
     "preexport": "next build",
     "export": "next export",
+    "postexport": "cp static/root/* out/ && touch out/.nojekyll",
     "start": "next start -p 4074",
     "predeploy": "npm run export",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
