@@ -61,7 +61,14 @@ export default () => {
           backgroundImage: `url(/static/img/screenshots/gameplay_3.png)`
         }}
       >
-        <Icon className="fa fa-play-circle fa-5x" />
+        <div className="embed-responsive embed-responsive-16by9">
+          <iframe
+            className="embed-responsive-item"
+            src="https://www.youtube-nocookie.com/embed/SmtEFYRiVrw?rel=0&showinfo=0"
+            frameBorder="0"
+            allowFullScreen
+          />
+        </div>
       </Section>
     </Layout>
   );
