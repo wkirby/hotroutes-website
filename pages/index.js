@@ -54,7 +54,7 @@ export default () => {
 
       <Section id="trailer" className="bg-light lg text-center">
         <Subtitle>Alpha Gameplay Trailer</Subtitle>
-        <div className="embed-responsive embed-responsive-16by9 rounded">
+        <div className="embed-responsive embed-responsive-16by9 rounded mx-auto my-3" style={{maxWidth: 600}}>
           <iframe
             className="embed-responsive-item"
             src="https://www.youtube-nocookie.com/embed/SmtEFYRiVrw?rel=0&showinfo=0"
