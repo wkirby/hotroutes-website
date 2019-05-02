@@ -2,10 +2,8 @@
 $font-family-sans-serif: "Roboto" sans-serif;
 
 // Colors
-$paper: #f8f7f5;
-$red: #e23b50;
-$primary: #5a7955;
-$text-color: #555558;
+$hr-red: #c9181e;
+$primary: $hr-red;
 
 $grid-gutter-width: 40px;
 $enable-responsive-font-sizes: true;
@@ -15,6 +13,12 @@ $modularscale: (
   base: 1rem,
   ratio: 1.25
 );
+
+$headings-font-weight: 900;
+$display1-weight: 900;
+$display2-weight: 900;
+$display3-weight: 900;
+$display4-weight: 900;
 
 $font-size-base: ms(0); // Assumes the browser default, typically `16px`
 $font-size-lg: ms(1);

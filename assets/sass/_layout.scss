@@ -1,35 +1,64 @@
+body {
+  background: $gray-100;
+}
+
+#main {
+  background-color: $body-bg;
+  @include media-breakpoint-up(md) {
+    border: 1px solid $gray-300;
+    background-color: white;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-shadow: 0 1px 5px rgba($gray-200, 0.25);
+  }
+}
+
 .logo {
-    margin: 10% auto;
+  margin: 10% auto;
 
-    @include media-breakpoint-up(sm) {
-        max-width: 400px;
-    }
+  @include media-breakpoint-up(sm) {
+    max-width: 400px;
+  }
 
-    @include media-breakpoint-up(md) {
-        max-width: 600px;
-    }
+  @include media-breakpoint-up(md) {
+    max-width: 600px;
+  }
 }
 
 .section {
-    padding: ($spacer-3 * 3) 0;
+  &.has-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 
-    &:nth-child(odd) {
-        background-color: $gray-100;
-        border-top: 1px solid $gray-300;
-        border-bottom: 1px solid $gray-300;
-    }
+  &.lg {
+    min-height: 60vh;
+  }
 
-    &:last-child {
-        margin-bottom: 0;
-    }
+  &.md {
+    min-height: 40vh;
+  }
+
+  padding: ($spacer-3 * 3) 0;
+
+  &:nth-child(odd) {
+    background-color: $gray-100;
+    border-top: 1px solid $gray-300;
+    border-bottom: 1px solid $gray-300;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .container-narrow {
-    max-width: 800px;
+  max-width: 800px;
 }
 
 #footer {
-    background-color: $gray-100;
-    border-top: 1px solid $gray-300;
-    color: $gray-500;
+  background-color: $gray-100;
+  border-top: 1px solid $gray-300;
+  color: $gray-500;
 }
