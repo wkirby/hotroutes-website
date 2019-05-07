@@ -18,7 +18,7 @@ module.exports = ["/static/img/screenshots/menu_1.jpg", "/static/img/screenshots
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ({"page_title":"Hot Routes: VR Football", "description":"Hot Routes: VR Football. Virtual reality quarterback game made for HTC Vive.\n"});
+module.exports = ({"page_title":"Hot Routes: VR Football", "description":"Hot Routes: VR Football. Virtual reality quarterback game made for HTC Vive.\n", "root_url":"https://hotroutesgame.com", "og_image":"/static/img/field.jpg"});
 
 /***/ }),
 
@@ -367,18 +367,19 @@ var Layout = function Layout(_ref2) {
       children = _ref2.children,
       props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref2, ["heroImage", "pageTitle", "children"]);
 
+  var image = heroImage ? heroImage : _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.og_image;
   var title = pageTitle ? "".concat(pageTitle, " | ").concat(_data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.page_title) : _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.page_title;
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Favicon, {
     href: "/static/img/favicon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
@@ -386,7 +387,7 @@ var Layout = function Layout(_ref2) {
     content: "initial-scale=1.0, width=device-width",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
@@ -394,37 +395,61 @@ var Layout = function Layout(_ref2) {
     href: "https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
-    property: "og:title",
-    content: title,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
-  }), heroImage && react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
-    property: "og:image",
-    content: heroImage,
+  }, title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    name: "description",
+    content: _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.description,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
-    name: "description",
-    content: _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.description,
+    property: "og:type",
+    content: "website",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    property: "og:title",
+    content: title,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    property: "og:image",
+    content: "".concat(_data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.root_url).concat(image),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    property: "og:url",
+    content: _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.root_url,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    property: "og:description",
+    content: _data_site_yaml__WEBPACK_IMPORTED_MODULE_5___default.a.description,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("main", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
@@ -432,13 +457,13 @@ var Layout = function Layout(_ref2) {
   }, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 41
     },
     __self: this
   }), children, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__["Footer"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 43
     },
     __self: this
   })));
@@ -30386,7 +30411,7 @@ var _jsxFileName = "/Users/wyattkirby/Dev/projects/hotroutes_website/pages/index
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Section__WEBPACK_IMPORTED_MODULE_7__["Section"], {
     className: "has-background has-overlay text-center text-white",
     style: {
-      backgroundImage: 'url(/static/img/field.png)'
+      backgroundImage: 'url(/static/img/field.jpg)'
     },
     __source: {
       fileName: _jsxFileName,
