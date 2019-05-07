@@ -1,14 +1,12 @@
 import React from "react";
-import { Container, Col, Row } from "reactstrap";
-import { Layout } from "../lib/components/Layout";
-import { Hero } from "../lib/components/Hero";
-import { MailChimpForm } from "../lib/components/MailChimpForm";
-import { Subtitle, Title } from "../lib/components/Title";
-import { Section } from "../lib/components/Section";
-import { Icon } from "../lib/components/Icon";
-import { ImageGrid } from "../lib/components/ImageGrid";
-
+import { Container } from "reactstrap";
 import screenshots from "../data/screenshots.yml";
+import { Hero } from "../lib/components/Hero";
+import { ImageGrid } from "../lib/components/ImageGrid";
+import { Layout } from "../lib/components/Layout";
+import { MailChimpForm } from "../lib/components/MailChimpForm";
+import { Section } from "../lib/components/Section";
+import { Subtitle, Title } from "../lib/components/Title";
 
 export default () => {
   return (
@@ -24,15 +22,10 @@ export default () => {
           </p>
           <hr />
 
-          <div className="images">
+          <div className="images text-center">
             <img
-              src="/static/img/logos/unity.png"
-              alt="Made with Unity"
-              className="img-fluid d-inline-block mx-3"
-            />
-            <img
-              src="/static/img/logos/vive.png"
-              alt="HTC Vive"
+              src="/static/img/logos/oculus.png"
+              alt="Oculus"
               className="img-fluid d-inline-block mx-3"
             />
             <img
@@ -40,6 +33,12 @@ export default () => {
               alt="Made with Steam VR"
               className="img-fluid d-inline-block mx-3"
             />
+            <img
+              src="/static/img/logos/vive.png"
+              alt="HTC Vive"
+              className="img-fluid d-inline-block mx-3"
+            />
+
           </div>
 
           <hr />
@@ -52,7 +51,7 @@ export default () => {
         </Container>
       </Section>
 
-      <Section id="trailer" className="bg-light lg text-center">
+      {/* <Section id="trailer" className="bg-light lg text-center">
         <Subtitle>Alpha Gameplay Trailer</Subtitle>
         <div className="embed-responsive embed-responsive-16by9 rounded mx-auto my-3" style={{maxWidth: 600}}>
           <iframe
@@ -62,13 +61,17 @@ export default () => {
             allowFullScreen
           />
         </div>
-      </Section>
+      </Section> */}
 
       <Section id="screenshots">
         <Container className="container-narrow text-center">
           <Subtitle>Screenshots</Subtitle>
           <ImageGrid images={screenshots} />
         </Container>
+      </Section>
+
+      <Section className="has-background has-overlay text-center text-white" style={{backgroundImage: 'url(/static/img/field.png)'}}>
+        &nbsp;
       </Section>
     </Layout>
   );

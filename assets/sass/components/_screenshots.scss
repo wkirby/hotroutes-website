@@ -1,12 +1,18 @@
-.screenshot {
-    margin-bottom: $spacer-3;
-    @include media-breakpoint-up(sm) {
-        float: left;
-        padding: $spacer-3;
-        width: 50%;
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .screenshot {
+        margin: $spacer-2;
+
+        @include media-breakpoint-up(sm) {
+            width: calc((100% / 2) - #{$spacer-2 * 2});
+        }
+
+        @include media-breakpoint-up(md) {
+            width: calc((100% / 3) - #{$spacer-2 * 2});
+        }
     }
 
-    @include media-breakpoint-up(md) {
-        width: 33%;
-    }
 }

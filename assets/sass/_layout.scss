@@ -42,6 +42,27 @@ body {
     background-position: center center;
   }
 
+  &.has-overlay {
+    position: relative;
+
+    > .section-body {
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      background: radial-gradient(rgba($black, 0.25), rgba($black, 0.5));
+    }
+  }
+
   &.lg {
     min-height: 60vh;
   }
