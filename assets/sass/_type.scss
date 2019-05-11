@@ -22,4 +22,10 @@ code {
 
 .subtitle {
     color: $primary;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: $spacer-4;
+    margin-bottom: $spacer-4;
+  }
 }
+

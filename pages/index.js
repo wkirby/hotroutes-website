@@ -54,6 +54,9 @@ export default () => {
               <p class="lead">Sign up for the mailing list</p>
               <MailChimpForm url="https://twitter.us14.list-manage.com/subscribe/post?u=c995eaf6129ecf4b13d8ae469&id=dd2d98db0f" />
             </div>
+
+            <hr className="my-4 d-xs-block d-sm-none" />
+
             <div className="col-sm-5 offset-sm-2">
               <p class="lead">Join us on discord</p>
               <a className="logo-link" href="https://discord.gg/ugTBaJ4" target="_blank">
@@ -102,6 +105,7 @@ export default () => {
               </ul>
             </div>
             <div className="col-sm-6">
+              <hr className="my-4 d-xs-block d-sm-none" />
               <p className="lead">Time Attack</p>
               <div className="screenshot mb-3">
                 <ImageZoom image={{ src: "/static/img/screenshots/gameplay_6.png", className: "img-fluid rounded" }} />
@@ -155,6 +159,29 @@ export default () => {
 
             <div className="d-flex flex-column align-items-end" style={{ opacity: 0.5 }}>
               <img src="/static/img/logos/device-oculus-go_sm.png" className="my-2" />
+            </div>
+          </div>
+
+        </Container>
+      </Section>
+
+      <Section id="follow">
+        <Container className="container-narrow text-center">
+          <Subtitle>Did we mention?</Subtitle>
+
+          <div className="row">
+            <div className="col-sm-5">
+              <p class="lead">Our mailing list</p>
+              <MailChimpForm url="https://twitter.us14.list-manage.com/subscribe/post?u=c995eaf6129ecf4b13d8ae469&id=dd2d98db0f" />
+            </div>
+
+            <hr className="my-4 d-xs-block d-sm-none" />
+
+            <div className="col-sm-5 offset-sm-2">
+              <p class="lead">Our Discord</p>
+              <a className="logo-link" href="https://discord.gg/ugTBaJ4" target="_blank">
+                <img className="img-fluid" src="/static/img/logos/discord.svg" />
+              </a>
             </div>
           </div>
 
