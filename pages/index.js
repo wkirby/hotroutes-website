@@ -128,8 +128,8 @@ export default () => {
           <Subtitle className="text-center">Versions</Subtitle>
 
           <p className="lead">Hot Routes</p>
-          <div className="d-flex justify-content-between align-items-center" >
-            <ul style={{ maxWidth: '60%' }}>
+          <div className="version-row" >
+            <ul>
               <li><strong>Devices:</strong> HTC Vive, Oculus Rift &amp; Rift S, Oculus Go</li>
               <li><strong>Planned:</strong> Valve Index, Oculus Quest</li>
               <li><strong>Stores:</strong> Steam, Oculus</li>
@@ -137,7 +137,7 @@ export default () => {
               <li><strong>Release Date:</strong> Early Access Q3 2019</li>
             </ul>
 
-            <div className="d-flex flex-column align-items-end" style={{ opacity: 0.5 }}>
+            <div className="version-row--logos">
               <img src="/static/img/logos/device-htc-vive_sm.png" className="my-2" />
               <img src="/static/img/logos/device-oculus-rift_sm.png" className="my-2" />
               <img src="/static/img/logos/device-oculus-rift-s_sm.png" className="my-2" />
@@ -148,8 +148,8 @@ export default () => {
           <hr className="my-5" />
 
           <p className="lead">Hot Routes Arcade</p>
-          <div className="d-flex justify-content-between">
-            <ul style={{ maxWidth: '60%' }}>
+          <div className="version-row">
+            <ul>
               <li><strong>Devices:</strong> Oculus Go</li>
               <li><strong>Stores:</strong> Oculus</li>
               <li><strong>Throw Styles:</strong> Arcade</li>
@@ -157,7 +157,7 @@ export default () => {
               <li><strong>Accepting Alpha Testers now! <a href="https://discord.gg/XVwPMsh" target="_blank">Join our discord</a> if you'd like to get involved.</strong></li>
             </ul>
 
-            <div className="d-flex flex-column align-items-end" style={{ opacity: 0.5 }}>
+            <div className="version-row--logos">
               <img src="/static/img/logos/device-oculus-go_sm.png" className="my-2" />
             </div>
           </div>
