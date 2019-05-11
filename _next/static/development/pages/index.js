@@ -30672,16 +30672,13 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __self: this
   }, "Hot Routes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex justify-content-between align-items-center",
+    className: "version-row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 131
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    style: {
-      maxWidth: '60%'
-    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 132
@@ -30748,10 +30745,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __self: this
   }, "Release Date:"), " Early Access Q3 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-column align-items-end",
-    style: {
-      opacity: 0.5
-    },
+    className: "version-row--logos",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 140
@@ -30807,16 +30801,13 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __self: this
   }, "Hot Routes Arcade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex justify-content-between",
+    className: "version-row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 151
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    style: {
-      maxWidth: '60%'
-    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 152
@@ -30891,10 +30882,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __self: this
   }, "Join our discord"), " if you'd like to get involved."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "d-flex flex-column align-items-end",
-    style: {
-      opacity: 0.5
-    },
+    className: "version-row--logos",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 160
