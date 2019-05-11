@@ -30400,18 +30400,25 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
       lineNumber: 55
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "my-4 d-xs-block d-sm-none",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-sm-5 offset-sm-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     class: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }, "Join us on discord"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -30420,7 +30427,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30428,82 +30435,82 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     src: "/static/img/logos/discord.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 63
     },
     __self: this
   })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Section__WEBPACK_IMPORTED_MODULE_7__["Section"], {
     id: "screenshots",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "container-narrow text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Title__WEBPACK_IMPORTED_MODULE_8__["Subtitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 85
     },
     __self: this
   }, "Screenshots"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_ImageGrid__WEBPACK_IMPORTED_MODULE_4__["ImageGrid"], {
     images: _data_screenshots_yml__WEBPACK_IMPORTED_MODULE_2___default.a,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 86
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Section__WEBPACK_IMPORTED_MODULE_7__["Section"], {
     id: "modes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "container-narrow text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Title__WEBPACK_IMPORTED_MODULE_8__["Subtitle"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 92
     },
     __self: this
   }, "Two Exciting Modes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-sm-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 94
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 95
     },
     __self: this
   }, "Hot Routes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "screenshot mb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_medium_image_zoom__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -30513,65 +30520,72 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 97
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "text-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 100
     },
     __self: this
   }, "Take the snap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 101
     },
     __self: this
   }, "Throw to a receiver"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 102
     },
     __self: this
   }, "Rack up points by completing passes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 103
     },
     __self: this
   }, "Three drops and you're done"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 104
     },
     __self: this
   }, "How long can you keep the streak alive?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-sm-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 107
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "my-4 d-xs-block d-sm-none",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 109
     },
     __self: this
   }, "Time Attack"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "screenshot mb-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 110
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_medium_image_zoom__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -30581,51 +30595,51 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 111
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "text-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 114
     },
     __self: this
   }, "One minute on the clock"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 115
     },
     __self: this
   }, "Clear as many rings as you can"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 116
     },
     __self: this
   }, "Find the bonuses to keep the clock going"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 117
     },
     __self: this
   }, "Get multiple rings for big multipliers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 118
     },
     __self: this
   }, "Can you climb the leaderboards?")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead mt-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 122
     },
     __self: this
   }, "with more coming soon!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Section__WEBPACK_IMPORTED_MODULE_7__["Section"], {
@@ -30633,35 +30647,35 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     className: "section--football-jersey",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "container-narrow",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Title__WEBPACK_IMPORTED_MODULE_8__["Subtitle"], {
     className: "text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 128
     },
     __self: this
   }, "Versions"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 130
     },
     __self: this
   }, "Hot Routes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex justify-content-between align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 131
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -30670,67 +30684,67 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 132
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 133
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 133
     },
     __self: this
   }, "Devices:"), " HTC Vive, Oculus Rift & Rift S, Oculus Go"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 134
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 134
     },
     __self: this
   }, "Planned:"), " Valve Index, Oculus Quest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 135
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 135
     },
     __self: this
   }, "Stores:"), " Steam, Oculus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 136
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 136
     },
     __self: this
   }, "Throw Styles:"), " Realistic & Arcade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 137
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 137
     },
     __self: this
   }, "Release Date:"), " Early Access Q3 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -30740,7 +30754,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 140
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30748,7 +30762,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     className: "my-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 141
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30756,7 +30770,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     className: "my-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 142
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30764,7 +30778,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     className: "my-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 143
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30775,28 +30789,28 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 144
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     className: "my-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 148
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 150
     },
     __self: this
   }, "Hot Routes Arcade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "d-flex justify-content-between",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 151
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
@@ -30805,67 +30819,67 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 152
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 153
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 153
     },
     __self: this
   }, "Devices:"), " Oculus Go"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 154
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 154
     },
     __self: this
   }, "Stores:"), " Oculus"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 155
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 155
     },
     __self: this
   }, "Throw Styles:"), " Arcade"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 156
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 156
     },
     __self: this
   }, "Release Date:"), " Q2 2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 157
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 157
     },
     __self: this
   }, "Accepting Alpha Testers now! ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -30873,7 +30887,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 157
     },
     __self: this
   }, "Join our discord"), " if you'd like to get involved."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -30883,7 +30897,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 160
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30891,10 +30905,96 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/index.js";
     className: "my-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 161
     },
     __self: this
-  }))))));
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Section__WEBPACK_IMPORTED_MODULE_7__["Section"], {
+    id: "follow",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    className: "container-narrow text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_Title__WEBPACK_IMPORTED_MODULE_8__["Subtitle"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170
+    },
+    __self: this
+  }, "Did we mention?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 172
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 173
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "lead",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174
+    },
+    __self: this
+  }, "Our mailing list"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_lib_components_MailChimpForm__WEBPACK_IMPORTED_MODULE_6__["MailChimpForm"], {
+    url: "https://twitter.us14.list-manage.com/subscribe/post?u=c995eaf6129ecf4b13d8ae469&id=dd2d98db0f",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "my-4 d-xs-block d-sm-none",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 178
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-sm-5 offset-sm-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 180
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "lead",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181
+    },
+    __self: this
+  }, "Our Discord"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "logo-link",
+    href: "https://discord.gg/ugTBaJ4",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "img-fluid",
+    src: "/static/img/logos/discord.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183
+    },
+    __self: this
+  })))))));
 });
 
 /***/ }),
