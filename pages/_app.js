@@ -1,9 +1,11 @@
-import App, { Container } from 'next/app'
+import App, { Container } from 'next/app';
+import Router from "next/router";
 import React from 'react'
-import { PageTransition } from 'next-page-transitions'
+import { PageTransition } from 'next-page-transitions';
 import smartquotes from "smartquotes";
+import withGA from "next-ga";
 
-export default class MyApp extends App {
+export class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {}
 
@@ -30,3 +32,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default withGA("UA-83971195-1", Router)(MyApp);

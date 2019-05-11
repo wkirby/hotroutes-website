@@ -1,0 +1,13 @@
+.section--football-helmet {
+  background-image: url('/static/img/backgrounds/grey-red-helmet-transparent.png');
+  background-repeat: no-repeat;
+  background-position: -200px 50%;
+  background-size: auto 70%;
+}
+
+.section--football-jersey {
+  background-image: url('/static/img/backgrounds/red-jersey-transparent.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% + 200px) 50%;
+  background-size: auto 70%;
+}

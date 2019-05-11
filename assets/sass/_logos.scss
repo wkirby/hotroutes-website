@@ -1,0 +1,24 @@
+
+.headset-logos {
+  img {
+    max-height: 75px;
+    padding-left: 2em;
+    padding-right: 2em;
+    opacity: .5;
+  }
+}
+
+.logo-link {
+
+
+  img {
+    transition: opacity .15s ease-in-out;
+    opacity: .7;
+  }
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+}
