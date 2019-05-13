@@ -30342,7 +30342,7 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/support.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-sm-5",
+    className: "col-lg-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -30355,64 +30355,13 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/support.js";
       lineNumber: 38
     },
     __self: this
-  }, "Fill out our cool form"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    type: "text/javascript",
-    src: "https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
-    type: "text/css",
-    media: "screen, projection",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "@import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css);"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    title: "Feedback Form",
-    class: "freshwidget-embedded-form",
-    id: "freshwidget-embedded-form",
-    src: "https://ncallaway.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&submitThanks=Thank+you+for+your+feedback!+We'll+be+in+touch+shortly.+You+might+be+able+to+get+&screenshot=No&searchArea=no&captcha=yes",
-    scrolling: "no",
-    height: "500px",
-    width: "100%",
-    frameborder: "0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
-    className: "my-4 d-xs-block d-sm-none",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-sm-5 offset-sm-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    class: "lead",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
   }, "Message us on discord"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "logo-link",
     href: "https://discord.gg/5WNHbpd",
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -30420,10 +30369,61 @@ var _jsxFileName = "/Users/noah/dev/hotroutes-website/pages/support.js";
     src: "/static/img/logos/discord.svg",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "my-5 d-xs-block d-lg-none",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-5 offset-lg-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    class: "lead",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Or fill out our cool form"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    type: "text/javascript",
+    src: "https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+    type: "text/css",
+    media: "screen, projection",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "@import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css);"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+    title: "Feedback Form",
+    class: "freshwidget-embedded-form",
+    id: "freshwidget-embedded-form",
+    src: "https://ncallaway.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&submitThanks=Thank+you+for+your+message!+We're+sorry+you're+having+issues+and+we'll+be+in+touch+shortly.&screenshot=No&searchArea=no&captcha=yes",
+    scrolling: "no",
+    height: "500px",
+    width: "100%",
+    frameborder: "0",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
-  })))))));
+  }))))));
 });
 
 /***/ }),
