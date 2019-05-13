@@ -1,18 +1,13 @@
 import React from "react";
 import { Container } from "reactstrap";
-import screenshots from "../data/screenshots.yml";
 import { Hero } from "../lib/components/Hero";
-import { ImageGrid } from "../lib/components/ImageGrid";
 import { Layout } from "../lib/components/Layout";
-import { MailChimpForm } from "../lib/components/MailChimpForm";
 import { Section } from "../lib/components/Section";
-import { Subtitle, Title } from "../lib/components/Title";
-
-import ImageZoom from "react-medium-image-zoom";
+import { Subtitle } from "../lib/components/Title";
 
 export default () => {
   return (
-    <Layout pageTitle="Welcome">
+    <Layout pageTitle="Get A Little Help">
       <Hero />
       <Section id="copy" className="section--football-helmet">
         <Container className="container-narrow text-center">
